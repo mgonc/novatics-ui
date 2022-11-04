@@ -3588,10 +3588,10 @@ function MDXContent({
     "id": "installation"
   }, `Installation`), (0,esm/* mdx */.kt)("p", null, `First install the latest version of the package from `, (0,esm/* mdx */.kt)("inlineCode", {
     parentName: "p"
-  }, `@novatics-ui/currency-text-field`), `.`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
+  }, `@novatics-ui-fork/currency-text-field`), `.`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-bash"
-  }, `yarn add @novatics-ui/currency-text-field
+  }, `yarn add @novatics-ui-fork/currency-text-field
 `)), (0,esm/* mdx */.kt)("h3", {
     "id": "dependencies"
   }, `Dependencies`), (0,esm/* mdx */.kt)("p", null, `This component extends `, (0,esm/* mdx */.kt)("a", {
@@ -3627,7 +3627,7 @@ function MDXContent({
   })), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-tsx"
-  }, `import CurrencyTextField from '@novatics-ui/currency-text-field';
+  }, `import CurrencyTextField from '@novatics-ui-fork/currency-text-field';
 
 <CurrencyTextField
   value={123456}
@@ -3963,18 +3963,18 @@ function MDXContent({
     "id": "installation"
   }, `Installation`), (0,esm/* mdx */.kt)("p", null, `First install the latest version of the package from `, (0,esm/* mdx */.kt)("inlineCode", {
     parentName: "p"
-  }, `@novatics-ui/<%= fileName %>`), `.`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
+  }, `@novatics-ui-fork/<%= fileName %>`), `.`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-shell"
-  }, `  yarn add -D @novatics-ui/styles
+  }, `  yarn add -D @novatics-ui-fork/styles
 `)), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-shell"
-  }, `  npm install --dev @novatics-ui/styles
+  }, `  npm install --dev @novatics-ui-fork/styles
 `)), (0,esm/* mdx */.kt)("p", null, `and use it`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-tsx"
-  }, `import { ThemeProvider, createTheme, styled } from '@novatics-ui/styles';
+  }, `import { ThemeProvider, createTheme, styled } from '@novatics-ui-fork/styles';
 
 const theme = createTheme();
 const Button = styled('button')({ background: 'red' });
@@ -4004,7 +4004,7 @@ return (
 To use it follow the documentation at Material-UI`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-tsx"
-  }, `import { ThemeProvider, createTheme, styled } from '@novatics-ui/styles';
+  }, `import { ThemeProvider, createTheme, styled } from '@novatics-ui-fork/styles';
 
 const App = ({ children }) => {
   const theme = createTheme();
@@ -4038,7 +4038,7 @@ This means that we can pass props not recognized by DOM using the dollar sign ($
 This is useful when we are using @emotion/styled as our styling engine.`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-tsx"
-  }, `import { styled } from '@novatics-ui/styles';
+  }, `import { styled } from '@novatics-ui-fork/styles';
 
 export const ListItem = styled('li')(({ $isFirst, $isLast }) => ({
   borderStyle: 'solid',
@@ -4260,15 +4260,15 @@ function MDXContent({
   })), (0,esm/* mdx */.kt)("p", null, `Here we provide the novatics tokens stylesheet. This package is used on our style component to create components with our brand!`), (0,esm/* mdx */.kt)("p", null, `You can install the package with`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-shell"
-  }, `  yarn add -D @novatics-ui/tokens
+  }, `  yarn add -D @novatics-ui-fork/tokens
 `)), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-shell"
-  }, `  npm install --dev @novatics-ui/tokens
+  }, `  npm install --dev @novatics-ui-fork/tokens
 `)), (0,esm/* mdx */.kt)("p", null, `and use it`), (0,esm/* mdx */.kt)("pre", null, (0,esm/* mdx */.kt)("code", {
     parentName: "pre",
     "className": "language-tsx"
-  }, `import Tokens, { colors, borderRadius, shadows, spacing, typography } from '@novatics-ui/tokens';
+  }, `import Tokens, { colors, borderRadius, shadows, spacing, typography } from '@novatics-ui-fork/tokens';
 
   ...
   color: Tokens.colors.nebula.main
@@ -5835,4 +5835,4 @@ var _frameworkImportPath = __webpack_require__(46441);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.bd0f7926.iframe.bundle.js.map
+//# sourceMappingURL=main.f00e40c3.iframe.bundle.js.map
