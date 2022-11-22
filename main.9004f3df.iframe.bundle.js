@@ -3487,7 +3487,7 @@ function CurrencyTextField(props) {
     outputFormat = _props$outputFormat === void 0 ? 'float' : _props$outputFormat,
     currencyProps = props.currencyProps,
     rest = objectWithoutPropertiesLoose_default()(props, _excluded);
-  var _useState = (0,react.useState)(''),
+  var _useState = (0,react.useState)('123'),
     maskedValue = _useState[0],
     setMaskedValue = _useState[1];
   var priorityCurrencyProps = (0,react.useMemo)(function () {
@@ -5835,4 +5835,4 @@ var _frameworkImportPath = __webpack_require__(46441);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.62168183.iframe.bundle.js.map
+//# sourceMappingURL=main.9004f3df.iframe.bundle.js.map
