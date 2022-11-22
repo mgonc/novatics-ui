@@ -158,7 +158,7 @@ var blocks = __webpack_require__(63255);
 // EXTERNAL MODULE: ./node_modules/@storybook/react/dist/esm/client/index.js + 5 modules
 var client = __webpack_require__(46441);
 ;// CONCATENATED MODULE: ./packages/currency-text-field/package.json
-const package_namespaceObject = {"i8":"0.4.0"};
+const package_namespaceObject = {"i8":"0.5.0"};
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
 var es_object_assign = __webpack_require__(19601);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
@@ -3905,7 +3905,7 @@ var client = __webpack_require__(46441);
 // EXTERNAL MODULE: ./node_modules/@mui/material/esm/Button/Button.js + 10 modules
 var Button = __webpack_require__(80828);
 ;// CONCATENATED MODULE: ./packages/styles/package.json
-const package_namespaceObject = {"i":"0.2.2"};
+const package_namespaceObject = {"i":"0.1.1"};
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.starts-with.js
 var es_string_starts_with = __webpack_require__(23157);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
@@ -5835,4 +5835,4 @@ var _frameworkImportPath = __webpack_require__(46441);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.1aec946c.iframe.bundle.js.map
+//# sourceMappingURL=main.0773dcb2.iframe.bundle.js.map
