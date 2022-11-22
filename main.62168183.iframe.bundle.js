@@ -158,7 +158,7 @@ var blocks = __webpack_require__(63255);
 // EXTERNAL MODULE: ./node_modules/@storybook/react/dist/esm/client/index.js + 5 modules
 var client = __webpack_require__(46441);
 ;// CONCATENATED MODULE: ./packages/currency-text-field/package.json
-const package_namespaceObject = {"i8":"0.1.1"};
+const package_namespaceObject = {"i8":"0.1.0"};
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
 var es_object_assign = __webpack_require__(19601);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
@@ -3905,7 +3905,7 @@ var client = __webpack_require__(46441);
 // EXTERNAL MODULE: ./node_modules/@mui/material/esm/Button/Button.js + 10 modules
 var Button = __webpack_require__(80828);
 ;// CONCATENATED MODULE: ./packages/styles/package.json
-const package_namespaceObject = {"i":"0.2.1"};
+const package_namespaceObject = {"i8":"0.1.0"};
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.starts-with.js
 var es_string_starts_with = __webpack_require__(23157);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
@@ -3958,7 +3958,7 @@ function MDXContent({
   }), (0,esm/* mdx */.kt)("h1", {
     "id": "styles-img-srchttpsimgshieldsiobadgeversion-vpkgversion-brightgreenn-"
   }, `Styles `, (0,esm/* mdx */.kt)("img", {
-    src: `https://img.shields.io/badge/Version-v${package_namespaceObject.i}-brightgreenn`
+    src: `https://img.shields.io/badge/Version-v${package_namespaceObject.i8}-brightgreenn`
   })), (0,esm/* mdx */.kt)("p", null, `Basic functions to create a MUI theme with our default colors, spacings, border radius, shadows and typography.`), (0,esm/* mdx */.kt)("h3", {
     "id": "installation"
   }, `Installation`), (0,esm/* mdx */.kt)("p", null, `First install the latest version of the package from `, (0,esm/* mdx */.kt)("inlineCode", {
@@ -4203,7 +4203,7 @@ var lodash_snakecase_default = /*#__PURE__*/__webpack_require__.n(lodash_snakeca
 var lodash_startcase = __webpack_require__(20070);
 var lodash_startcase_default = /*#__PURE__*/__webpack_require__.n(lodash_startcase);
 ;// CONCATENATED MODULE: ./packages/tokens/package.json
-const package_namespaceObject = {"i8":"0.1.1"};
+const package_namespaceObject = {"i8":"0.1.0"};
 // EXTERNAL MODULE: ./packages/tokens/src/lib/tokens.ts + 5 modules
 var tokens = __webpack_require__(75790);
 ;// CONCATENATED MODULE: ./packages/tokens/src/lib/tokens.stories.mdx
@@ -5835,4 +5835,4 @@ var _frameworkImportPath = __webpack_require__(46441);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.2302c137.iframe.bundle.js.map
+//# sourceMappingURL=main.62168183.iframe.bundle.js.map
