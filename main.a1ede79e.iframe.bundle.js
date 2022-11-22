@@ -158,7 +158,7 @@ var blocks = __webpack_require__(63255);
 // EXTERNAL MODULE: ./node_modules/@storybook/react/dist/esm/client/index.js + 5 modules
 var client = __webpack_require__(46441);
 ;// CONCATENATED MODULE: ./packages/currency-text-field/package.json
-const package_namespaceObject = {"i8":"0.5.0"};
+const package_namespaceObject = {"i8":"0.4.1"};
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.assign.js
 var es_object_assign = __webpack_require__(19601);
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
@@ -3487,7 +3487,7 @@ function CurrencyTextField(props) {
     outputFormat = _props$outputFormat === void 0 ? 'float' : _props$outputFormat,
     currencyProps = props.currencyProps,
     rest = objectWithoutPropertiesLoose_default()(props, _excluded);
-  var _useState = (0,react.useState)('6'),
+  var _useState = (0,react.useState)(''),
     maskedValue = _useState[0],
     setMaskedValue = _useState[1];
   var priorityCurrencyProps = (0,react.useMemo)(function () {
@@ -5835,4 +5835,4 @@ var _frameworkImportPath = __webpack_require__(46441);
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.0773dcb2.iframe.bundle.js.map
+//# sourceMappingURL=main.a1ede79e.iframe.bundle.js.map
