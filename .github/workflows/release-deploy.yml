@@ -16,6 +16,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.DEPLOY_TOKEN }}
           fetch-depth: 0
 
       - name: Install Dependencies 🔧
@@ -31,7 +32,7 @@ jobs:
         run: |
           git config user.name "GitHub Bot"
           git config user.email "novatics-ui@novatics.com"
-          echo "\n//npm.pkg.github.com/:_authToken=\${GITHUB_TOKEN}" >> .npmrc
+          cp .npmrc.deploy .npmrc
 
       - name: Create versions 🏗
         shell: bash
